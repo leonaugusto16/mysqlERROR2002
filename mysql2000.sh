@@ -6,6 +6,6 @@ echo ""
 mkdir /var/run/mysqld
 touch /var/run/mysqld/mysqld.sock
 chown -R mysql /var/run/mysqld
-/etc/init.d/mysql restart
+/etc/init.d/mysqld restart
 
 echo "###########Finished OK###################"
